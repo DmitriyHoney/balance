@@ -1,0 +1,65 @@
+/*----- Specify -----*/
+* {
+  box-sizing: border-box;
+  transition: all .1s ease;
+}
+
+body {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+ul, li {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Custom Style*/
+.ghost-btn {
+  background-color: #e5ebf1;
+  color: #55677d;
+  padding: 7px 3px;
+  border-radius: 3px;
+  width: 120px;
+}
+
+.ghost-btn:hover {
+  background-color: #dfe6ed;
+}
+
+.content {
+  background-color: #fff;
+  padding: 15px;
+  width: 85%;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
