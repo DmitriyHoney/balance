@@ -1,7 +1,7 @@
 //Services
 import React, {useState} from "react";
 //Styles
-import s from "./UserStatus.module.scss";
+//import s from "./UserStatus.module.scss";
 
 const UserStatus = props => {
     let oldStatus = props.userStatus; //Изначальный статус

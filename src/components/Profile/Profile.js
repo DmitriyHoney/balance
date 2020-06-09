@@ -1,11 +1,12 @@
 //Services
 import React from "react";
 //Styles
-import s from "./Profile.module.scss";
+//import s from "./Profile.module.scss";
 //Components
 import ProfileUserCard from "./ProfileUserCard/ProfileUserCard";
 
 const Profile = props => {
+
     return (
         <div>
             Profile
@@ -15,6 +16,7 @@ const Profile = props => {
                 isItMyPage={props.profilePage.isItMyPage}
                 changeUserStatus={props.changeUserStatus}
                 setNewProfilePhoto={props.setNewProfilePhoto}
+                setNewUserInfo={props.setNewUserInfo}
             />
         </div>
     );

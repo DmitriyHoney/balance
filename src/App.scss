@@ -40,18 +40,6 @@ a {
 }
 
 /*Custom Style*/
-.ghost-btn {
-  background-color: #e5ebf1;
-  color: #55677d;
-  padding: 7px 3px;
-  border-radius: 3px;
-  width: 120px;
-}
-
-.ghost-btn:hover {
-  background-color: #dfe6ed;
-}
-
 .content {
   background-color: #fff;
   padding: 15px;
@@ -62,4 +50,24 @@ a {
 .App {
   display: flex;
   flex-wrap: wrap;
+}
+
+button {
+   background-color: darkseagreen;
+   color: #fff;
+   border-radius: 3px !important;
+ }
+
+button:active {
+  position: relative;
+  top: -2px;
+}
+
+button:active, button:focus, button:hover {
+  outline: none;
+  border: none;
+}
+
+button:disabled {
+  background-color: #ccc;
 }

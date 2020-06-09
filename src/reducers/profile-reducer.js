@@ -5,6 +5,7 @@ const SET_PROFILE_PRELOADER     = "social-app/profile-reducer/SET_PROFILE_PRELOA
 const SET_USER_STATUS           = "social-app/profile-reducer/SET_USER_STATUS";
 const SET_IS_MY_PAGE            = "social-app/profile-reducer/SET_IS_MY_PAGE";
 const SET_PROFILE_PHOTO         = "social-app/profile-reducer/SET_PROFILE_PHOTO";
+const SET_NEW_USER_INFO         = "social-app/profile-reducer/SET_NEW_USER_INFO";
 
 let initialState = {
     userStatus: null,
@@ -63,6 +64,14 @@ const profileReducer = (state = initialState, action) => {
                     photos: action.photos
                 }
             }
+        case SET_NEW_USER_INFO:
+            return {
+                ...state,
+                userData: {
+                    ...state.userData,
+                    ...action.newUserInfo
+                }
+            }
         default:
             return state;
     }
@@ -74,17 +83,18 @@ export const setProfilePreloaderAC  = bool              => ({type: SET_PROFILE_P
 export const setUserStatusAC        = userStatusFromApi => ({type: SET_USER_STATUS, userStatusFromApi});
 export const setIsMyPageAC          = bool              => ({type: SET_IS_MY_PAGE, bool});
 export const setProfilePhotoAC      = photos            => ({type: SET_PROFILE_PHOTO, photos});
+export const setNewUserInfoAC       = newUserInfo       => ({type: SET_NEW_USER_INFO, newUserInfo});
 
 //ThunkCallback
 export const getProfileUserCardThunkCallback = userId => async (dispatch, getState) => { //Получить userCard
     dispatch(setProfilePreloaderAC(true)); //Включаем Preloader
-    if (!userId) { //если id не передан, тогда вставляем id пользователя хозяина
-        userId = getState().authPage.data.id;
+    let currentUserId = getState().authPage.data.id; //id хозяина страницы
+    if (userId === undefined || currentUserId === userId) { //если id не передан или равен текущему пользователю, тогда вставляем id пользователя хозяина
         dispatch(setIsMyPageAC(true)); //устанавливаем что это моя страница
+        userId = currentUserId;
     } else {
         dispatch(setIsMyPageAC(false)); //устанавливаем что это не моя страница
     }
-
     let response = await profileApi.getProfileUserCard(userId); //Получаем userCard
     await dispatch(getUserStatusThunkCallback(userId)) //Получаем UserStatus
     dispatch(setProfilePreloaderAC(false)); //Выключаем Preloader
@@ -111,5 +121,26 @@ export const setNewProfilePhotoThunkCallback = photoFile => async dispatch => { 
     }
 }
 
+export const setNewUserInfoThunkCallback = formData => async dispatch => { //Изменить информацию о пользователе
+     let {
+         lookingForAJob, lookingForAJobDescription, aboutMe: AboutMe, fullName,
+         contacts: {github, vk, facebook, instagram,
+             twitter, website, youtube, mainLink},
+
+     } = formData;
+
+     let dataForFetchServer = {
+         lookingForAJob, lookingForAJobDescription,
+         fullName, AboutMe,
+         contacts: {
+             github, vk, facebook, instagram, twitter, website, youtube, mainLink
+         }
+     };
+     let response = await profileApi.setUserInfo(dataForFetchServer);
+
+     if (response.data.resultCode === 0) {
+         dispatch(setNewUserInfoAC(dataForFetchServer))
+     }
+}
 
 export default profileReducer;

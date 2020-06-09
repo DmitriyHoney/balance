@@ -22,5 +22,23 @@ export const profileApi = {
         return instance.put(`profile/photo`, photoFileObj, {
             headers: { 'content-type': 'multipart/form-data' }
         })
+    },
+    setUserInfo(formData) {
+        return instance.put(`profile`, formData)
+    }
+};
+
+export const usersApi = {
+    getUsers(count, page, term, friend) {
+        if (term === "" && friend === "")  return instance.get(`users?count=${count}&page=${page}&term=&friend=`)
+        if (term === "")  return instance.get(`users?count=${count}&page=${page}&term=&friend=${friend}`)
+        if (friend === "")  return instance.get(`users?count=${count}&page=${page}&term=${term}&friend=`)
+        return instance.get(`users?count=${count}&page=${page}&term=${term}&friend=${friend}`)
+    },
+    followOnUser(userId) {
+        return instance.post(`/follow/${userId}`, {userId})
+    },
+    unFollowOnUser(userId) {
+        return instance.delete(`/follow/${userId}`, {userId})
     }
 };

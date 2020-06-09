@@ -2,46 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568d54cc-01ee-4fcd-bba0-9f7c5a5f8a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/preloader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selectors/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfileForm/EditProfileForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfileForm/EditProfileForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/PaginationWrap/PaginationWrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/PaginationWrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SmallAvatar/SmallAvatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SmallAvatar/SmallAvatar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/users-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FormControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selectors/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="social" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/PaginationWrap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Front\Desktop\social\src\assets\images" />
-      <recent name="C:\Users\Front\Desktop\social\src\components\Profile\SocialBlock" />
-      <recent name="C:\Users\Front\Desktop\social\src\components\Profile\UserStatus" />
-      <recent name="C:\Users\Front\Desktop\social\src\components\common\LargeAvatar" />
-      <recent name="C:\Users\Front\Desktop\social\src\components\Profile\ProfileUserCard" />
+      <recent name="C:\Users\Front\Desktop\social\src\components\common\PaginationWrap" />
+      <recent name="C:\Users\Front\Desktop\social\src\components\common\SmallAvatar" />
+      <recent name="C:\Users\Front\Desktop\social\src\components\Users\UsersList" />
+      <recent name="C:\Users\Front\Desktop\social\src\components\Profile\EditProfileForm" />
+      <recent name="C:\Users\Front\Desktop\social\src\components\Profile\EditProfile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Front\Desktop\social\src\components" />
@@ -127,7 +129,9 @@
       <updated>1591609616411</updated>
       <workItem from="1591609617900" duration="4940000" />
       <workItem from="1591616579716" duration="3357000" />
-      <workItem from="1591634840746" duration="10862000" />
+      <workItem from="1591634840746" duration="11136000" />
+      <workItem from="1591688670599" duration="17478000" />
+      <workItem from="1591725775618" duration="13163000" />
     </task>
     <servers />
   </component>
@@ -139,29 +143,33 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="630" y="339" key="EditFileWatcherDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1591610749184" />
-    <state width="1837" height="295" key="GridCell.Tab.0.bottom" timestamp="1591635262144">
+    <state width="1837" height="295" key="GridCell.Tab.0.bottom" timestamp="1591739009207">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591635262144" />
-    <state width="1837" height="295" key="GridCell.Tab.0.center" timestamp="1591635262144">
+    <state width="1837" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
+    <state width="1837" height="295" key="GridCell.Tab.0.center" timestamp="1591739009207">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591635262144" />
-    <state width="1837" height="295" key="GridCell.Tab.0.left" timestamp="1591635262143">
+    <state width="1837" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
+    <state width="1837" height="295" key="GridCell.Tab.0.left" timestamp="1591739009207">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591635262143" />
-    <state width="1837" height="295" key="GridCell.Tab.0.right" timestamp="1591635262144">
+    <state width="1837" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
+    <state width="1837" height="295" key="GridCell.Tab.0.right" timestamp="1591739009207">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591635262144" />
-    <state x="647" y="250" width="672" height="677" key="run.anything.popup" timestamp="1591636547789">
+    <state width="1837" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
+    <state x="550" y="145" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591708369203">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="647" y="250" width="672" height="677" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591636547789" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591646057946">
+    <state x="550" y="145" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1591708369203" />
+    <state x="647" y="250" width="672" height="677" key="run.anything.popup" timestamp="1591734803695">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591646057946" />
+    <state x="647" y="250" width="672" height="677" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591734803695" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591737498007">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591737498007" />
   </component>
 </project>
