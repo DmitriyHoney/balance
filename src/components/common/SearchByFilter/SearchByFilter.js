@@ -1,7 +1,7 @@
 //Services
 import React from "react";
 //Styles
-
+import s from "./SearchByFilter.module.scss"
 //Components
 
 const SearchByFilter = props => {
@@ -24,7 +24,7 @@ const SearchByFilter = props => {
         props.setFriendFilterAC(filterParam)
     };
     return (
-        <div>
+        <div className={s.section}>
             <SearchInputFilter
                 value={"all Users"}
                 name={"allUsers"}

@@ -9,7 +9,6 @@ const Profile = props => {
 
     return (
         <div>
-            Profile
             <ProfileUserCard
                 userData={props.profilePage.userData}
                 userStatus={props.profilePage.userStatus}

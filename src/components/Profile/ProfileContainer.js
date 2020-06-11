@@ -9,6 +9,7 @@ import {withRouter} from "react-router-dom";
 //Components
 import Profile from "./Profile";
 import Preloader from "../common/Preloader/Preloader";
+import {withAuthRedirect} from "../../utils/hoc";
 
 
 let mapStateToProps = state => ({
@@ -58,6 +59,7 @@ class ProfileContainer extends React.PureComponent {
 }
 
 export default compose(
+    withAuthRedirect,
     withRouter,
     connect(mapStateToProps, {getProfileUserCardThunkCallback, changeUserStatusThunkCallback, setNewProfilePhotoThunkCallback, setNewUserInfoThunkCallback})
 )(ProfileContainer);

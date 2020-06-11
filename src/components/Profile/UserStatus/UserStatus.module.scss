@@ -1,0 +1,21 @@
+@import "../../../assets/styles/variables";
+
+.statusWrap {
+
+  margin-bottom: 15px;
+  & span {
+    background-color: $main-cl;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 20px;
+    display: block;
+    &:hover {
+      background-color: lighten($main-cl, 10%);
+    }
+  }
+}
+
+.editModeStyle {
+  cursor: pointer;
+}

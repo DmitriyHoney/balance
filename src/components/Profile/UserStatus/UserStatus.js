@@ -1,7 +1,7 @@
 //Services
 import React, {useState} from "react";
 //Styles
-//import s from "./UserStatus.module.scss";
+import s from "./UserStatus.module.scss";
 
 const UserStatus = props => {
     let oldStatus = props.userStatus; //Изначальный статус
@@ -22,7 +22,7 @@ const UserStatus = props => {
     };
 
     return (
-        <div>
+        <div className={`${s.statusWrap} ${props.isItMyPage && s.editModeStyle}`}>
             {editMode
                 ? <input
                         type="text"
@@ -31,7 +31,7 @@ const UserStatus = props => {
                         value={userStatus}
                         onChange={handleInput}
                     />
-                : <span onDoubleClick={props.isItMyPage ? onEditMode : () => {}}>{userStatus || "Нет статуса"}</span>
+                : <span onClick={props.isItMyPage ? onEditMode : () => {}}>{userStatus || "Нет статуса"}</span>
             }
         </div>
     );

@@ -1,7 +1,7 @@
 //Services
 import React, {useState} from "react";
 //Styles
-//import s from "./EditProfile.module.scss";
+import s from "./EditProfile.module.scss";
 import EditProfileForm from "../EditProfileForm/EditProfileForm";
 //Components
 
@@ -19,13 +19,13 @@ const EditProfile = props => {
         props.setNewUserInfo(formData);
         setEditMode(false);
     };
-    let buttonEdit = <button onClick={onEditMode}>Edit</button>;
-    let buttonCancel = <button onClick={offEditMode}>Cancel</button>;
+    let buttonEdit = <button onClick={onEditMode}>Edit Profile Info</button>;
+    let buttonCancel = <button onClick={offEditMode} className={s.cancel}>Cancel</button>;
     let currentButton = editMode ? buttonCancel : buttonEdit;
 
     if (props.isItMyPage) {
         return (
-            <div>
+            <div className={editMode ? s.section : ''}>
                 {currentButton}
                 {editMode && <EditProfileForm onSubmit={onSubmitEditForm} initialValues={props.initialValues}/>}
             </div>

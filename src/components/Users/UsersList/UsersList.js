@@ -1,7 +1,7 @@
 //Services
 import React from "react";
 //Styles
-//import s from "./UsersList.module.scss";
+import s from "./UsersList.module.scss";
 import SmallAvatar from "../../common/SmallAvatar/SmallAvatar";
 //Components
 
@@ -15,12 +15,14 @@ const UsersList = props => {
     let userList = props.users.map(oneUser => {
         let {name, id, photos, status, followed} = oneUser; //uniqueUrlName
         return (
-            <div key={id}>
+            <div key={id} className={s.user}>
                 <div>
-                    <SmallAvatar src={photos.small} id={id}/>
-                    <h3>{name}</h3>
+                    <div>
+                        <SmallAvatar src={photos.small} id={id}/>
+                        <h3>{name}</h3>
+                    </div>
+                    <p>Status: {status || "Not status"}</p>
                 </div>
-                <p>Status: {status}</p>
                 {followed
                     ? <button
                         disabled={props.usersInProcessOfSubscribing.some(e => e === id)}

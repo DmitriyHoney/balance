@@ -42,3 +42,18 @@ export const usersApi = {
         return instance.delete(`/follow/${userId}`, {userId})
     }
 };
+
+export const authApi = {
+    getAuthRequest() {
+        return instance.get(`auth/me`)
+    },
+    loginInTheSite(formData) {
+        return instance.post(`auth/login`, formData)
+    },
+    getCaptchaUrl() {
+        return instance.get(`security/get-captcha-url`)
+    },
+    logoutToTheSite() {
+        return instance.delete(`auth/login`)
+    }
+};

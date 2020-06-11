@@ -7,9 +7,10 @@ const SET_FOLLOW_ON_USER_STATE          = "social-app/users-reducer/SET_FOLLOW_O
 const TOGGLE_USER_TO_STACK_SUBSCRIBE    = "social-app/users-reducer/TOGGLE_USER_TO_STACK_SUBSCRIBE";
 const SET_TERM_VALUE                    = "social-app/users-reducer/SET_TERM_VALUE";
 const SET_FRIEND_FILTER                 = "social-app/users-reducer/SET_FRIEND_FILTER";
+const SET_DEFAULT_SETTINGS                 = "social-app/users-reducer/SET_DEFAULT_SETTINGS";
 
 let initialState = {
-    count: 10,                          //Кол-во пользователей на странице
+    count: 5,                          //Кол-во пользователей на странице
     page: 1,                            //Текущая страница
     term: "",                           //Имя для поиска
     friend: "",                         //если true ищем только друзей, false всех кроме друзей, emty ищем всех
@@ -66,6 +67,13 @@ const usersReducer = (state = initialState, action) => {
                 ...state,
                 friend: action.value
             }
+        case SET_DEFAULT_SETTINGS:
+            return {
+                ...state,
+                page: initialState.page,
+                term: initialState.term,
+                friend: initialState.friend
+            }
         default:
             return state;
     }
@@ -79,6 +87,7 @@ export const setFollowOnUserStateAC         = userId            => ({type: SET_F
 export const toggleUserToStackSubscribeAC   = (userId, bool)    => ({type: TOGGLE_USER_TO_STACK_SUBSCRIBE, userId, bool});
 export const setTermValueAC                 = string            => ({type: SET_TERM_VALUE, string}); //Поиск по имени
 export const setFriendFilterAC              = value             => ({type: SET_FRIEND_FILTER, value}); //Поиск по фильтру
+export const setDefaultSettingsAC           = ()                => ({type: SET_DEFAULT_SETTINGS}); //По умолчанию поиск
 //ThunkCallback
 export const getUsersListThunkCallback = () => async (dispatch, getState) => {
     dispatch(setUsersPagePreloaderAC(true)); //Пока запрос пошёл включаем прелоадер

@@ -2,40 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568d54cc-01ee-4fcd-bba0-9f7c5a5f8a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfileForm/EditProfileForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/EditProfileForm/EditProfileForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/PaginationWrap/PaginationWrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/PaginationWrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SmallAvatar/SmallAvatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SmallAvatar/SmallAvatar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/users-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/FormControls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginForm/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginForm/LoginForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/hoc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/selectors/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -69,6 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/PaginationWrap" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -132,6 +137,9 @@
       <workItem from="1591634840746" duration="11136000" />
       <workItem from="1591688670599" duration="17478000" />
       <workItem from="1591725775618" duration="13163000" />
+      <workItem from="1591739032939" duration="102000" />
+      <workItem from="1591791581287" duration="15245000" />
+      <workItem from="1591859029727" duration="1083000" />
     </task>
     <servers />
   </component>
@@ -143,22 +151,22 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="630" y="339" key="EditFileWatcherDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1591610749184" />
-    <state width="1837" height="295" key="GridCell.Tab.0.bottom" timestamp="1591739009207">
+    <state width="1837" height="295" key="GridCell.Tab.0.bottom" timestamp="1591859313646">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
-    <state width="1837" height="295" key="GridCell.Tab.0.center" timestamp="1591739009207">
+    <state width="1837" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591859313646" />
+    <state width="1837" height="295" key="GridCell.Tab.0.center" timestamp="1591859313646">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
-    <state width="1837" height="295" key="GridCell.Tab.0.left" timestamp="1591739009207">
+    <state width="1837" height="295" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591859313646" />
+    <state width="1837" height="295" key="GridCell.Tab.0.left" timestamp="1591859313646">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
-    <state width="1837" height="295" key="GridCell.Tab.0.right" timestamp="1591739009207">
+    <state width="1837" height="295" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591859313646" />
+    <state width="1837" height="295" key="GridCell.Tab.0.right" timestamp="1591859313646">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591739009207" />
+    <state width="1837" height="295" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591859313646" />
     <state x="550" y="145" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591708369203">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -167,9 +175,9 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="647" y="250" width="672" height="677" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591734803695" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591737498007">
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591862189082">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591737498007" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591862189082" />
   </component>
 </project>

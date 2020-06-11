@@ -1,0 +1,9 @@
+.section {
+  margin: 25px 0px;
+  & button {
+    margin: 0 5px;
+  }
+  & input {
+    margin-right: 5px;
+  }
+}

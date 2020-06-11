@@ -37,13 +37,11 @@ const Users = props => {
                 onClick={handleSearchBtn}
                 onClickReset={handleResetSearch}
             />
-
             <SearchByFilter
                 setAnotherPageAC={props.setAnotherPageAC}
                 friend={props.friend}
                 setFriendFilterAC={props.setFriendFilterAC}
             />
-
             <PaginationWrap
                 activePage={props.usersPage.page} //Текущая страница
                 totalItemsCount={props.usersPage.totalCount} //Всего пользователей

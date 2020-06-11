@@ -1,6 +1,16 @@
+@import "../../assets/styles/variables";
+
 .section {
-  background-color: indianred;
+  background-color: $main-cl;
   color: #fff;
   padding: 15px;
   width: 100%;
+  & header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & a {
+    color: #fff;
+  }
 }

@@ -4,11 +4,13 @@ import {compose} from "redux";
 import {connect} from "react-redux";
 import {
     getUsersListThunkCallback, goToAnotherPageThunkCallback, toggleFollowUserThunkCallback,
-    setTermValueAC, setFriendFilterAC, setAnotherPageAC
+    setTermValueAC, setFriendFilterAC, setAnotherPageAC,
+    setDefaultSettingsAC
 } from "../../reducers/users-reducer";
 //Components
 import Users from "./Users";
 import {getFriendFilter, getUsersPage, usersPagePreloader} from "../../selectors/selectors";
+import {withAuthRedirect} from "../../utils/hoc";
 
 let mapStateToProps = state => ({
     usersPage:          getUsersPage(state),
@@ -25,6 +27,10 @@ class UsersContainer extends React.Component {
         if (prevProps.friend !== this.props.friend) {
             this.getUsersList();
         }
+    }
+
+    componentWillUnmount() { //Сбрасывать настройки фильтров, поиска и текущей страницы
+        this.props.setDefaultSettingsAC()
     }
 
     getUsersList = () => {
@@ -56,6 +62,8 @@ class UsersContainer extends React.Component {
 }
 
 export default compose(
+    withAuthRedirect,
     connect(mapStateToProps, {getUsersListThunkCallback, goToAnotherPageThunkCallback, toggleFollowUserThunkCallback,
-        setTermValueAC, setFriendFilterAC, setAnotherPageAC}),
+        setTermValueAC, setFriendFilterAC, setAnotherPageAC,
+        setDefaultSettingsAC}),
 )(UsersContainer);

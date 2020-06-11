@@ -1,5 +1,8 @@
 .formControl {
-
+    margin: 5px 0px;
+    & textarea {
+        resize: none;
+    }
 }
 
 .formControl.error input,

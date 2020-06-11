@@ -1,8 +1,11 @@
 .avatarWrap {
   position: relative;
-  height: 300px;
+  height: 250px;
+  width: 250px;
+
   & img {
     height: 100%;
+    border-radius: 5px;
   }
   & .overlay {
     position: absolute;
@@ -17,6 +20,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 5px;
   }
   &:hover .overlay {
     opacity: 1;
@@ -42,7 +46,7 @@
     cursor: pointer;
     z-index: 555;
     border: 1px solid transparent;
-    padding-top: 5px;
+    padding-top: 8px;
     &:hover {
       border: 1px solid #fff;
       border-radius: 5px;

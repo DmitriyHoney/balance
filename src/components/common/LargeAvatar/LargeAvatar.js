@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import defaultUser from "../../../assets/images/default-user.jpg";
 //Styles
 import s from "./LargeAvatar.module.scss";
+import Preloader from "../Preloader/Preloader";
 
 const LargeAvatar = props => {
     const [avatarLoad, setAvatarLoad] = useState(false);
@@ -23,7 +24,7 @@ const LargeAvatar = props => {
     if(avatarLoad) { //Если фото в процессе загрузки
         return (
             <div className={s.avatarWrap}>
-                <div>Load...</div>
+                <Preloader />
             </div>
         );
     } else { //Фото загруженно

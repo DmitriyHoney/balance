@@ -24,10 +24,10 @@ const ProfileUserCard = props => {
                    changeUserStatus={props.changeUserStatus}
                    isItMyPage={props.isItMyPage}
                />
-               <p>{fullName}</p>
-               <p>Обо мне: {aboutMe}</p>
-               <p>Ищу работу: {lookingForAJob ? <span className={s.jobTrue}>Yes</span> : <span className={s.jobFalse}>No</span>}</p>
-               <p>Навыки моей работы: {lookingForAJobDescription ? lookingForAJobDescription : 'Пока не указал'}</p>
+               <p className={s.fullName}><span>I`m</span> {fullName}</p>
+               <p className={s.aboutMe}><span>About me:</span> {aboutMe}</p>
+               <p className={s.lookingJob}><span className={s.lookingJobFirstChild}>Looking for a job:</span> {lookingForAJob ? <span className={s.jobTrue}>Yes</span> : <span className={s.jobFalse}>No</span>}</p>
+               <p className={s.lookingJobDescr}><span>Work skills:</span> {lookingForAJobDescription ? lookingForAJobDescription : 'Пока не указал'}</p>
                <EditProfile
                    isItMyPage={props.isItMyPage}
                    setNewUserInfo={props.setNewUserInfo}

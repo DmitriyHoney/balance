@@ -1,4 +1,7 @@
 /*----- Specify -----*/
+@import "assets/styles/variables";
+
+
 * {
   box-sizing: border-box;
   transition: all .1s ease;
@@ -41,7 +44,7 @@ a {
 
 /*Custom Style*/
 .content {
-  background-color: #fff;
+  background-color: $bg-cl;
   padding: 15px;
   width: 85%;
   min-height: 100vh;
@@ -53,9 +56,12 @@ a {
 }
 
 button {
-   background-color: darkseagreen;
+   background: linear-gradient(#67ae55, #578843);
    color: #fff;
    border-radius: 3px !important;
+  &:disabled {
+    background-color: #ccc !important;
+  }
  }
 
 button:active {
@@ -68,6 +74,6 @@ button:active, button:focus, button:hover {
   border: none;
 }
 
-button:disabled {
-  background-color: #ccc;
-}
+
+
+
