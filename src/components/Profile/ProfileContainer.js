@@ -46,7 +46,6 @@ class ProfileContainer extends React.PureComponent {
 
     render() {
         if (this.props.profilePreloader) return <Preloader/> //Если данные в процессе загрузки
-        console.log("ProfileContainer Render")
         return (
             <Profile
                 profilePage={this.props.profilePage}

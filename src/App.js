@@ -29,7 +29,6 @@ class App extends React.Component {
     }
 
     render() {
-        console.log("App Render")
         if (this.props.authPreloader) return <Preloader/>
         return (
             <div className="App">

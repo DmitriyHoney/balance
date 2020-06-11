@@ -46,7 +46,6 @@ class UsersContainer extends React.Component {
     }
 
     render() {
-        console.log("UsersContainer Render")
         return <Users
             usersPagePreloader={this.props.usersPagePreloder}
             usersPage={this.props.usersPage}

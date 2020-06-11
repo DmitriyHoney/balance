@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568d54cc-01ee-4fcd-bba0-9f7c5a5f8a42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginForm/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginForm/LoginForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/hoc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/EditProfile/EditProfile.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileUserCard/ProfileUserCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/SocialBlock/SocialBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserStatus/UserStatus.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersList/UsersList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LargeAvatar/LargeAvatar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SearchBlock/SearchBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SearchByFilter/SearchByFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectors/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/FormsControls.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +108,7 @@
       <workItem from="1591725775618" duration="13163000" />
       <workItem from="1591739032939" duration="102000" />
       <workItem from="1591791581287" duration="15245000" />
-      <workItem from="1591859029727" duration="1083000" />
+      <workItem from="1591859029727" duration="1506000" />
     </task>
     <servers />
   </component>
@@ -175,9 +144,9 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="647" y="250" width="672" height="677" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591734803695" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591862189082">
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591862712335">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591862189082" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591862712335" />
   </component>
 </project>
